@@ -27,6 +27,7 @@ MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of th
 - [x] YouTube Shorts Automator (with CRON Jobs => `scheduler`)
 - [x] Affiliate Marketing (Amazon + Twitter)
 - [x] Find local businesses & cold outreach
+- [x] Approval-first Reddit growth assistant (see `docs/reddit_ios_agent.md`)
 
 ## Versions
 
