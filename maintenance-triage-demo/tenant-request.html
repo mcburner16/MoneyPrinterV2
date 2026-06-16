@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tenant Request</title><link rel="stylesheet" href="styles.css"></head>
+<body><header class="topbar"><div class="container nav-wrap"><a class="brand link" href="index.html">Property Maintenance Triage Agent</a><span class="demo-badge">Demo Mode</span></div></header>
+<main class="container page"><section class="card"><h1>Submit Maintenance Request</h1>
+<form id="requestForm" class="grid-form">
+<input required name="tenantName" placeholder="Tenant name">
+<input required name="address" placeholder="Property address">
+<input required name="unit" placeholder="Unit number">
+<input name="phone" placeholder="Phone number">
+<input name="email" placeholder="Email">
+<select name="category" required><option value="">Maintenance category</option><option>Plumbing</option><option>HVAC</option><option>Electrical</option><option>Appliance</option><option>Pest</option><option>Doors / Locks</option><option>General Maintenance</option><option>Other</option></select>
+<textarea required name="description" rows="4" placeholder="Description of issue"></textarea>
+<label>Is this actively damaging the property?<select name="activeDamage"><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+<label>Is there standing water, smoke, sparks, sewage, or no heat/AC in extreme weather?<select name="hazard"><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+<label>Can the tenant safely access the area?<select name="safeAccess"><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+<label>Optional photo upload placeholder<input type="file" disabled></label>
+<button class="btn primary" type="submit">Triage Request</button>
+</form>
+</section></main><script src="app.js"></script></body></html>
